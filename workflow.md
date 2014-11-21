@@ -9,11 +9,11 @@ You may proceed as follows in your local directory (assuming you are in the root
 
 * Make a directory (some-directory) within your root directory:
         
-`mdkir some-directory` 
+`mkdir <some-directory>` 
 
 * Change to the new directory:
         
-`cd some-directory`
+`cd <some-directory>`
 
 * Declare the directory as an actual repository: 
 
@@ -21,15 +21,15 @@ You may proceed as follows in your local directory (assuming you are in the root
 
 * Once you have declared the directory as a repository, it may or may not have a file. You can manually copy a file or create it with the following command:
 
-`touch some-file`
+`touch <some-file>`
 
 * Now you are ready to add the exant files to the repository in order to make your first commit:
 
-`git add --all` or `git add some-file`
+`git add --all` or `git add <some-file>`
 
 * You have added the files (or a set of files) and there are ready to be commited to the repository, so you may proceed as follows (where some-message is a mandatory descrpition of the commit):
 
-`git commit -m "some-message"`
+`git commit -m "<some-message>"`
 
 * Once you have commited the files, you may want to create a repository in the Github and connect both repositories. Go to your Github account, Create new > New repository, give the **same** name as your local repository.
 
