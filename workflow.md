@@ -41,6 +41,8 @@ You may proceed as follows in your local directory (assuming you are in the root
 
 The first code line connects your local repository with your repository in the Github (actually the url provided is the one you get in your specific repository website). The second code line just tells Git to upload to Github the files previously commited.
 
+By the way, you do not have to type `git remote add origin https://...` every time you push a file to your repo. This may be done only the first time you specify your directory as master. 
+
 
 
 
