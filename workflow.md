@@ -15,6 +15,13 @@ You may proceed as follows in your local directory (assuming you are in the root
         
 `cd <some-directory>`
 
+Or probably you may want to copy an already existing repository in a remote server (usually the Github).
+
+* Clone the remote repository to your local PC:
+
+`git clone https://... <the url of the repo in Github>`
+
+
 * Declare the directory as an actual repository: 
 
 `git init` 
@@ -35,7 +42,7 @@ You may proceed as follows in your local directory (assuming you are in the root
 
 * Once you have made your repository in the Github, you may want to connect your local repository with a repository in the Github. To do this, type the following commands:
 
-`git remote add origin https://...`
+`git remote add origin https://... <the url of the repo in Github>`
 
 `git push origin master`
 
