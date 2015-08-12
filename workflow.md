@@ -43,6 +43,9 @@ The first code line connects your local repository with your repository in the G
 
 By the way, you do not have to type `git remote add origin https://...` every time you push a file to your repo. This may be done only the first time you specify your directory as master. 
 
+* If you are working on your local computer and want to update your local version with the latest version of a remote repository, you have to pull the changes down from the Github with:
+
+`git pull origin master`
 
 
 
