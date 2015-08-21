@@ -26,19 +26,25 @@ Or probably you may want to copy an already existing repository in a remote serv
 
 `git init` 
 
+#### Changing files and adding to the staging area
+
 * Once you have declared the directory as a repository, it may or may not have a file. You can manually copy a file or create it with the following command:
 
 `touch <some-file>`
 
-* Now you are ready to add the exant files to the repository in order to make your first commit:
+* If you modify this file, you need to add this to the staging area. This area contains all the changes you have made to your files. The command is as follows:
 
 `git add --all` or `git add <some-file>`
+
+#### Commiting the changes
 
 * You have added the files (or a set of files) and there are ready to be commited to the repository, so you may proceed as follows (where some-message is a mandatory descrpition of the commit):
 
 `git commit -m "<some-message>"`
 
 * Once you have commited the files, you may want to create a repository in the Github and connect both repositories. Go to your Github account, Create new > New repository, give the **same** name as your local repository.
+
+#### Pushing to the remote repository
 
 * Once you have made your repository in the Github, you may want to connect your local repository with a repository in the Github. To do this, type the following commands:
 
@@ -54,7 +60,8 @@ By the way, you do not have to type `git remote add origin https://...` every ti
 
 `git pull origin master`
 
+#### Viewing the differences
 
+*Before you add your modified files to the staging area, you may want to view the differences: this can be done by typing the following command, which provides you an abbreviate and simple way to visualize the changes in your file:
 
-
-
+`git diff --stat`
