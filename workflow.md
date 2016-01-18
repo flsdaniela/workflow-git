@@ -65,3 +65,5 @@ By the way, you do not have to type `git remote add origin https://...` every ti
 *Before you add your modified files to the staging area, you may want to view the differences: this can be done by typing the following command, which provides you an abbreviate and simple way to visualize the changes in your file:
 
 `git diff --stat`
+
+prueba
